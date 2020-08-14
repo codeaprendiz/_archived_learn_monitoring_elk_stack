@@ -14,8 +14,12 @@
 |[Disk Used](#Disk-used)                                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-used.png)                                                   | 
 |[Disk Usage](#Disk-Usage)                                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-usage.png)                                                  | 
 |[CPU Usage](#CPU-Usage)                                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/cpu-usage.png)                                                   | 
-|[](#)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/)                                                                          | 
-|[](#)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/)                                                 | 
+|[System Load](#System-Load)                                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/system-load.png)                                                 | 
+|[Memory Usage](#Memory-Usage)                                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/memory-usage.png)                                                | 
+|[Disk IO](#Disk-IO)                                                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-io.png)                                                     | 
+|[Network Traffic Packets](Network-Traffic-Packets#)                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/network-traffic-packets.png)                                     | 
+|[Network Traffic Bytes](#Network-Traffic-Bytes)                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/network-traffic-bytes.png)                                       | 
+|[Processes By Memory](#Processes-By-Memory)                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/processes-by-memory.png)                                         | 
 |[](#)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/)                                                 | 
 |[](#)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/)                                                 | 
 
