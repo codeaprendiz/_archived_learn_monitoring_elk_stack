@@ -1,21 +1,21 @@
 ## Kubernetes Monitoring
 
 
-|               Stats                                                |           Visualization                                                                                                                          | Action Needed
-|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------  |---------------------------- | 
-|[Nodes](#Nodes)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/nodes.png)                                                 | `kubectl get nodes`
-|[Deployments](#Deployments)                                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/deployments.png)                                           | `kubectl get deployments`
-|[Available Pods Per Deployment](#Available-pods-per-deployment)     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/available-pods-per-deployment1.png)                        | `kubectl get pods` <br>  `kubectl get deployments`
-|[Desired-pods](#Desired-pods)                                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/desired-pods.png)                                          | `kubectl get pods`
-|[Available pods](#Available-pods)                                   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/available-pods.png)                                        | `kubectl get pods`
-|[Unavailable pods](#Unavailable-pods)                               | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/unavailable-pods.png)                                      | `kubectl get pods`
-|[Unavailable pods per deployment](#Unavailable-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/unavailable-pods-per-deployment1.png)                      | 
-|[CPU Usage by node](#CPU-usage-by-node)                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/cpu-usage-by-node.png)                                     | 
-|[Memory usage by node](#Memory-usage-by-node)                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/memory-usage-by-node.png)                                  | 
-|[Network out by node](#Network-out-by-node)                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/network-out-by-node.png)                                   | 
-|[Network in by node](#Network-in-by-node)                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/network-in-by-node.png)                                    | 
-|[Top CPU intensive pods](#Top-CPU-intensive-pods)                   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/top-cpu-intensive-pods.png)                                | 
-|[Top memory intensive pods](#Top-memory-intensive-pods)             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/top-memory-intensive-pods.png)                             | 
+|               Stats                                                |           Visualization                                                                                                                                     | Action Needed
+|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------ |---------------------------- | 
+|[Nodes](#Nodes)                                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/nodes.png)                                                 | `kubectl get nodes`
+|[Deployments](#Deployments)                                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/deployments.png)                                           | `kubectl get deployments`
+|[Available Pods Per Deployment](#Available-pods-per-deployment)     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/available-pods-per-deployment1.png)                        | `kubectl get pods` <br>  `kubectl get deployments`
+|[Desired-pods](#Desired-pods)                                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/desired-pods.png)                                          | `kubectl get pods`
+|[Available pods](#Available-pods)                                   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/available-pods.png)                                        | `kubectl get pods`
+|[Unavailable pods](#Unavailable-pods)                               | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/unavailable-pods.png)                                      | `kubectl get pods`
+|[Unavailable pods per deployment](#Unavailable-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/unavailable-pods-per-deployment1.png)                      | 
+|[CPU Usage by node](#CPU-usage-by-node)                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/cpu-usage-by-node.png)                                     | 
+|[Memory usage by node](#Memory-usage-by-node)                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/memory-usage-by-node.png)                                  | 
+|[Network out by node](#Network-out-by-node)                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/network-out-by-node.png)                                   | 
+|[Network in by node](#Network-in-by-node)                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/network-in-by-node.png)                                    | 
+|[Top CPU intensive pods](#Top-CPU-intensive-pods)                   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/top-cpu-intensive-pods.png)                                | 
+|[Top memory intensive pods](#Top-memory-intensive-pods)             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/kubernetes/metricbeat/top-memory-intensive-pods.png)                             | 
 
 
 
