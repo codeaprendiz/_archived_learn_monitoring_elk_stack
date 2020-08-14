@@ -6,7 +6,7 @@
 |[Desired-pods](#Desired-pods)                                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/desired-pods.png)                                          | `kubectl get pods`
 |[Available pods](#Available-pods)                                   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/available-pods.png)                                        | `kubectl get pods`
 |[Unavailable pods](#Unavailable-pods)                               | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/unavailable-pods.png)                                      | `kubectl get pods`
-|[Unavailable pods per deployment](#Unavailable-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/unavailable-pods-per-deployment.png)                       | 
+|[Unavailable pods per deployment](#Unavailable-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/unavailable-pods-per-deployment1.png)                       | 
 |[CPU Usage by node](#CPU-usage-by-node)                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/cpu-usage-by-node.png)                                     | 
 
 
