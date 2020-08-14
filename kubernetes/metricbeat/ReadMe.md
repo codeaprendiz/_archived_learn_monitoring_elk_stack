@@ -1,8 +1,8 @@
-Stats | Visualization  | Action Needed
---- | --- | --- | 
-[Nodes](#Nodes) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/nodes.png) | `kubectl get nodes`
-[Deployments](#Deployments) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/deployments.png) | `kubectl get deployments`
-[Available Pods Per Deployment](#Available-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/available-pods-per-deployment.png) | `kubectl get deployments`
+|               Stats                                           |           Visualization                                                                                                                          | Action Needed
+|---------------------------------------                        |------------------------------------------------------------------------------------------------------------------------------------------------  |---------------------------- | 
+[Nodes](#Nodes)                                                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/nodes.png)                                                 | `kubectl get nodes`
+[Deployments](#Deployments)                                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/deployments.png)                                           | `kubectl get deployments`
+[Available Pods Per Deployment](#Available-pods-per-deployment) | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/metricbeat/available-pods-per-deployment.png)                         | `kubectl get pods` <br>  `kubectl get deployments`
 
 
 ### Nodes

@@ -1,3 +1,3 @@
 # monitoring-kitchen
 
-[kubernetes - docker-kibana, docker-elastic-search, metricbeat](./kubernetes/ReadMe.md)
+[kubernetes - kibana, elasticsearch, metricbeat](./kubernetes/metricbeat/ReadMe.md)
