@@ -1,31 +1,28 @@
 ## Host Monitoring
 
-|               Stats                                                |           Visualization                                                                                                                                     | Action Needed
-|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------ |---------------------------- | 
-|[CPU Usage Guage](#CPU-Usage-Gauge)                                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/cpu-usage-guage.png)                                             | 
-|[Memroy Usage Guage](#Memory-Usage-Gauge)                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/memory-usage-guage.png)                                          | 
-|[Load Guage](#Load-Guage)                                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/load-guage.png)                                                  | 
-|[Inbound Traffic](#Inbound-Traffic)                                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/inbound-traffic.png)                                             | 
-|[Outbound Traffic](#Outbound-Traffic)                               | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/outbound-traffic.png)                                            | 
-|[Packetloss](#Packetloss)                                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/packetloss.png)                                                  | 
-|[Swap Usage](#Swap-uage)                                            | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/swap-usage.png)                                                  | 
-|[Memory usage vs total](#Memory-usage-vs-total)                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/memory-usage-vs-total.png)                                       | 
-|[Number of processes](#Number-of-processes)                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/number-of-processes.png)                                         | 
-|[Disk Used](#Disk-used)                                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-used.png)                                                   | 
-|[Disk Usage](#Disk-Usage)                                           | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-usage.png)                                                  | 
-|[CPU Usage](#CPU-Usage)                                             | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/cpu-usage.png)                                                   | 
-|[System Load](#System-Load)                                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/system-load.png)                                                 | 
-|[Memory Usage](#Memory-Usage)                                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/memory-usage.png)                                                | 
-|[Disk IO](#Disk-IO)                                                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/disk-io.png)                                                     | 
-|[Network Traffic Packets](Network-Traffic-Packets#)                 | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/network-traffic-packets.png)                                     | 
-|[Network Traffic Bytes](#Network-Traffic-Bytes)                     | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/network-traffic-bytes.png)                                       | 
-|[Processes By Memory](#Processes-By-Memory)                         | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/processes-by-memory.png)                                         | 
-|[Top Processes By CPU](#Top-Processes-By-CPU)                       | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/top-processes-by-cpu.png)                                        | 
-|[Interfaces By Incoming Traffic](#Interfaces-By-Incoming-Traffic)   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/interfaces-by-incoming-traffic.png)                              | 
-|[Interfaces By Outgoing Traffic](#Interfaces-By-Outgoing-Traffic)   | ![](https://github.com/codeaprendiz/_assets/blob/master/monitoring-kitchen/host/metricbeat/interfaces-by-outgoing-traffic.png)                              | 
-
-
-
+|               Stats                                                | Visualization                                                                                                                  | Action Needed |
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------| 
+|[CPU Usage Guage](#CPU-Usage-Gauge)                                 | ![](../../.images/cpu-usage-guage.png)                                                                                         |               |
+|[Memroy Usage Guage](#Memory-Usage-Gauge)                           | ![](../../.images/memory-usage-guage.png)             |               |
+|[Load Guage](#Load-Guage)                                           | ![](../../.images/load-guage.png)                     |               |
+|[Inbound Traffic](#Inbound-Traffic)                                 | ![](../../.images/inbound-traffic.png)                |               |
+|[Outbound Traffic](#Outbound-Traffic)                               | ![](../../.images/outbound-traffic.png)               |               |
+|[Packetloss](#Packetloss)                                           | ![](../../.images/packetloss.png)                     |               |
+|[Swap Usage](#Swap-uage)                                            | ![](../../.images/swap-usage.png)                     |               |
+|[Memory usage vs total](#Memory-usage-vs-total)                     | ![](../../.images/memory-usage-vs-total.png)          |               |
+|[Number of processes](#Number-of-processes)                         | ![](../../.images/number-of-processes.png)            |               |
+|[Disk Used](#Disk-used)                                             | ![](../../.images/disk-used.png)                      |               |
+|[Disk Usage](#Disk-Usage)                                           | ![](../../.images/disk-usage.png)                     |               |
+|[CPU Usage](#CPU-Usage)                                             | ![](../../.images/cpu-usage.png)                      |               |
+|[System Load](#System-Load)                                         | ![](../../.images/system-load.png)                    |               |
+|[Memory Usage](#Memory-Usage)                                       | ![](../../.images/memory-usage.png)                   |               |
+|[Disk IO](#Disk-IO)                                                 | ![](../../.images/disk-io.png)                        |               |
+|[Network Traffic Packets](Network-Traffic-Packets#)                 | ![](../../.images/network-traffic-packets.png)        |               |
+|[Network Traffic Bytes](#Network-Traffic-Bytes)                     | ![](../../.images/network-traffic-bytes.png)          |               |
+|[Processes By Memory](#Processes-By-Memory)                         | ![](../../.images/processes-by-memory.png)            |               |
+|[Top Processes By CPU](#Top-Processes-By-CPU)                       | ![](../../.images/top-processes-by-cpu.png)           |               |
+|[Interfaces By Incoming Traffic](#Interfaces-By-Incoming-Traffic)   | ![](../../.images/interfaces-by-incoming-traffic.png) |               |
+|[Interfaces By Outgoing Traffic](#Interfaces-By-Outgoing-Traffic)   | ![](../../.images/interfaces-by-outgoing-traffic.png) |               |
 
 ### CPU-Usage-Gauge
 
